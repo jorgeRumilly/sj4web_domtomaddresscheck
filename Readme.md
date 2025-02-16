@@ -26,7 +26,7 @@
 ## Installation
 1. **Téléchargez** ou **clonez** ce repository dans le dossier `/modules/` de votre PrestaShop :
    ```sh
-   git clone https://github.com/votre-repo/sj4web_domtomaddresscheck.git modules/sj4web_domtomaddresscheck
+   git clone https://github.com/jorgeRumilly/sj4web_domtomaddresscheck.git modules/sj4web_domtomaddresscheck
    ```
 2. **Allez dans le back-office** de PrestaShop :
     - **Modules** > **Gestion des modules**
@@ -50,22 +50,6 @@
 - **PHP 7.0 → 8.x** (validation back-end)
 - **JavaScript (ES6)** pour la validation dynamique
 - **MutationObserver + `prestashop.on('updatedAddressForm')`** pour re-appliquer la validation après un rechargement AJAX
-
-## Contribuer
-1. **Forker le projet**
-2. **Créer une branche feature**
-   ```sh
-   git checkout -b ma-nouvelle-fonctionnalite
-   ```
-3. **Committer vos modifications**
-   ```sh
-   git commit -m "Ajout d'une nouvelle validation pour XYZ"
-   ```
-4. **Pousser votre branche**
-   ```sh
-   git push origin ma-nouvelle-fonctionnalite
-   ```
-5. **Ouvrir une Pull Request**
 
 ## Auteurs
 👨‍💻 **Développé par SJ4WEB**
