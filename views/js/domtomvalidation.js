@@ -44,6 +44,11 @@ document.addEventListener("DOMContentLoaded", function () {
         const customSelect2 = formGroup.querySelector(".custom-select2");
         if (customSelect2) {
             customSelect2.insertAdjacentElement("afterend", errorBlock);
+        } else {
+            const customSelect = formGroup.querySelector('[name=id_country]');
+            if (customSelect) {
+                customSelect.insertAdjacentElement("afterend", errorBlock);
+            }
         }
     }
 
